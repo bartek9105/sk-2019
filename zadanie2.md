@@ -3,7 +3,7 @@
 35 urządzeń zmieści się w sieci 64 czyli 2^6, więc potrzebnych jest 6 bitów na część hostową. 32 – 6 = 26 bitów części sieciowej czyli maski.
 26 bitów to dziesiętnie 255.255.255.192
 
-Każde laboratorium to oddzielna sieć według schematu
+Każde laboratorium to oddzielna sieć według schematu:
 
 * Lab009 – 192.168.9.x /26
 * Lab13 – 192.168.13.x /26
@@ -15,9 +15,9 @@ Komputery w laboratorium oznaczone są w sposób następujący:
 
 * PC1_9 – czyli jest to pierwszy komputer w Lab 009 itd.
 
-Komputery maja adresy IP przypisane w następujący sposób np.
+Komputery maja adresy IP przypisane w następujący sposób, np.
 
-* C14_204 – 192.168.204.14 (przedostatni oktet to nr laboratorium, ostatni to numer komputera.
+* C14_204 – 192.168.204.14 (przedostatni oktet to nr laboratorium, ostatni to numer komputera)
 
 W każdym laboratorium brama to ostatni adres z sieci czyli 192.168.nr_lab.62 (broadcast to 63).
 
@@ -49,7 +49,7 @@ Podobnie dla R1 I R2.
 
 Przyznana pula adresów to 188.156.220.160 /27
 
-Maska 27 czyli 32-27=5 bitów na hosty, co daje 2^3-32, więc
+Maska 27 czyli 32-27=5 bitów na hosty, co daje 2^3-32, więc:
 
 * Adres sieci: 188.156.220.160
 * Hosty: 188.156.220.161-188.156.220.190
