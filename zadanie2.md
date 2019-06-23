@@ -2,8 +2,6 @@
 
 ## Projekt sieci lokalnej dla jednostki dydaktycznej uniwersytetu
 
-![budynek](budynek.svg)
-
 ### Cel Projektu
   Zaprojektowanie i weryfikacja działania sieci w środowisku testowym. 
   Rozwiązanie zapewnia dostęp do internetu dla wszystkich urządzeńw infrastrukturze.
