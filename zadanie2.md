@@ -1,3 +1,5 @@
+ZADANIE WYKONANE W CISCO PACKET TRACER 7.2
+
 # Maska
 
 35 urządzeń zmieści się w sieci 64 czyli 2^6, więc potrzebnych jest 6 bitów na część hostową. 32 – 6 = 26 bitów części sieciowej czyli maski.
@@ -43,7 +45,7 @@ WPA2-PSK: p2$12345
 * R0(dhcp-config)# network 192.168.0.0 255.255.255.0 (przypisanie adresów do puli)
 * R0(dhcp-config)# default-router 192.168.0.254 (podanie bramy dla hostów)
 * R0(dhcp-config)# exit
-* R0(config)# ip dhcp excluded-address 192.168.0.254 (wyłączenie z puli adresu swojego interfejsu, bo I tak juz zajęty)
+* R0(config)# ip dhcp excluded-address 192.168.0.254 (wyłączenie z puli adresu swojego interfejsu, bo i tak juz zajęty)
 
 Podobnie dla R1 I R2.
 
