@@ -36,14 +36,14 @@ WPA2-PSK: p2$12345
 
 # Konfiguracja serwera dhcp dla wifi na R0
 
-R0> enable
-R0# configure terminal
-R0(config)# service dhcp (włączenie usługi)
-R0(config)# ip dhcp pool wifi_p0 (utworzenie puli adresów dla piętra 0)
-R0(dhcp-config)# network 192.168.0.0 255.255.255.0 (przypisanie adresów do puli)
-R0(dhcp-config)# default-router 192.168.0.254 (podanie bramy dla hostów)
-R0(dhcp-config)# exit
-R0(config)# ip dhcp excluded-address 192.168.0.254 (wyłączenie z puli adresu swojego interfejsu, bo I tak juz zajęty)
+* R0> enable
+* R0# configure terminal
+* R0(config)# service dhcp (włączenie usługi)
+* R0(config)# ip dhcp pool wifi_p0 (utworzenie puli adresów dla piętra 0)
+* R0(dhcp-config)# network 192.168.0.0 255.255.255.0 (przypisanie adresów do puli)
+* R0(dhcp-config)# default-router 192.168.0.254 (podanie bramy dla hostów)
+* R0(dhcp-config)# exit
+* R0(config)# ip dhcp excluded-address 192.168.0.254 (wyłączenie z puli adresu swojego interfejsu, bo I tak juz zajęty)
 
 Podobnie dla R1 I R2.
 
