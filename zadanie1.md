@@ -22,7 +22,7 @@ N3 - 172.22.192.0 /19
 N4 - 172.22.224.0 /19
 
 N1 przeznaczamy na LAN2 (5000 hostów), a N2 można albo przeznaczyć na LAN1 tak jak jest albo 'okroić' tak, żeby weszło 500 hostów.
-Żeby nie marnotrawić adresów okroimu N2 do około 500 maszyn. Żeby weszło 500 hostów potrzeba 2^9=512 czyli 
+Żeby nie marnotrawić adresów 'okroję' N2 do około 500 maszyn. Żeby weszło 500 hostów potrzeba 2^9=512, czyli 
 9 bitów na część hostową. Dzielimy N2.
 172.22.160.0 /19
 
@@ -57,10 +57,6 @@ Przyjmujemy adresację:
 * ETH0 na PC1 - 172.22.160.2 /23 (255.255.254.0)
 
 * ETH0 na PC2 - 172.22.128.2/19 (255.255.224.0)
-
-# Polecenia
-
-Ustawienie adresu IP dla interfejsu
 
 # Dla PC0
 
