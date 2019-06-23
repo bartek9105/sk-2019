@@ -129,3 +129,5 @@ service networking restart
 Koniec konfiguracji PC2
 
 # Schemat w DIA
+
+![alt text](https://github.com/bartek9105/sk-2019/blob/master/schemat%20zad1.png?raw=true)
