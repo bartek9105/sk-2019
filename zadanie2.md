@@ -113,3 +113,7 @@ Dla R1
 Dla R2
 * R0(config-router)# access-list 102 deny tcp 192.168.2.0 0.0.0.255 192.168.0.0 0.0.255.255
 * R0(config-router)# access-list 102 permit tcp any any
+
+# Schemat
+
+![alt text](https://github.com/bartek9105/sk-2019/blob/master/schemat%20zad2.JPG?raw=true)
